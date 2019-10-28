@@ -5,9 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx @svgr/cli --template component-template.js --ext tsx -d components source",
-    "index": "cti create components && npx barrelsby --exportDefault --delete --directory components",
+    "index": "npx cti create components && npx barrelsby --exportDefault --delete --directory components",
     "precompile": "npx rimraf dist",
-    "compile": "npx tsc"
+    "compile": "npx tsc",
+    "start": "npm run build && npm run index && npm run compile"
   },
   "author": "",
   "license": "ISC",
