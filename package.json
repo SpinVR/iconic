@@ -1,0 +1,27 @@
+{
+  "name": "@areo/iconic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx @svgr/cli --template component-template.js --ext tsx -d components source",
+    "index": "cti create components && npx barrelsby --exportDefault --delete --directory components",
+    "precompile": "npx rimraf dist",
+    "compile": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/cli": "^4.3.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "barrelsby": "^2.2.0",
+    "create-ts-index": "^1.12.0",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.4"
+  }
+}

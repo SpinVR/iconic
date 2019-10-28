@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "lib": ["es2015"],
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": [
+    "components/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
