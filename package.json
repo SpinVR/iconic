@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx @svgr/cli --template component-template.js --ext tsx -d components source",
+    "build": "npx @svgr/cli --template component-template.js -d components source --config-file .svgrrc.json --ext tsx",
     "index": "npx cti create components && npx barrelsby --exportDefault --delete --directory components",
     "precompile": "npx rimraf dist",
     "compile": "npx tsc",
