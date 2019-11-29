@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgUploadIdeo360 = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgUploadIdeo360 = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path
       fillRule="evenodd"

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectSpecialPortal = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectSpecialPortal = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path d="M27 20h-6.5v-3L17 20.5l3.5 3.5v-3H27v-1z" fill="#fff" />
     <path

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgUploadLifemeter = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgUploadLifemeter = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path
       d="M19.45 13C14.278 13 10 17.1 10 22.2c0 1.8.497 3.4 1.492 4.8h16.016C28.403 25.6 29 23.9 29 22.2c-.1-5.1-4.377-9.2-9.55-9.2zm7.461 13H11.989c-.696-1.2-.994-2.5-.994-3.8 0-4.5 3.78-8.2 8.455-8.2 4.676 0 8.456 3.7 8.456 8.2 0 1.3-.299 2.6-.995 3.8z"

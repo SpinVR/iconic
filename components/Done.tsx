@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgDone = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgDone = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <g filter="url(#done_svg__filter0_d)">
       <path

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectLightAmbient = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectLightAmbient = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path d="M23 22h-6v4h6v-4zM22 27h-4v1h4v-1z" fill="#fff" />
     <path

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectLock = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectLock = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path
       d="M24 19c.55 0 1 .45 1 1v5c0 .55-.45 1-1 1h-8c-.55 0-1-.45-1-1v-5c0-.55.45-1 1-1h8zm0-1h-8c-1.1 0-2 .9-2 2v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-5c0-1.1-.9-2-2-2z"

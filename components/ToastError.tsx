@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgToastError = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgToastError = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <g clipPath="url(#toast-error_svg__clip0)">
       <path

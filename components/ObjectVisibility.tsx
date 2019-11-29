@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectVisibility = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectVisibility = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path d="M20 22a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" fill="#fff" />
     <path

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectCamera = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectCamera = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path d="M27 16v10H13V16h14zm1-1H12v12h16V15z" fill="#fff" />
     <path d="M20 23.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" fill="#fff" />

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectMesh = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectMesh = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <g clipPath="url(#object-mesh_svg__clip0)">
       <path

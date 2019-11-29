@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectPrimitiveTorus = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectPrimitiveTorus = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <path
       d="M20 14c-4.4 0-8 2.9-8 6.5s3.6 6.5 8 6.5 8-2.9 8-6.5-3.6-6.5-8-6.5zm0 12c-3.9 0-7-2.5-7-5.5s3.1-5.5 7-5.5 7 2.5 7 5.5-3.1 5.5-7 5.5z"

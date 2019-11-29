@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgObjectSearch = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgObjectSearch = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <g clipPath="url(#object-search_svg__clip0)">
       <path

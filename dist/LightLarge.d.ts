@@ -1,3 +1,3 @@
 import * as React from "react";
-declare const SvgLightLarge: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
+declare const SvgLightLarge: (props?: React.SVGProps<SVGSVGElement>) => JSX.Element;
 export default SvgLightLarge;
