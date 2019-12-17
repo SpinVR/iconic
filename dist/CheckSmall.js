@@ -13,5 +13,8 @@ var __assign = (this && this.__assign) || function () {
 exports.__esModule = true;
 var React = require("react");
 var SvgCheckSmall = function (props) { return (React.createElement("svg", __assign({ width: 24, height: 24, fill: "none" }, props),
-    React.createElement("path", { d: "M7 11.148L9.903 15 17 7", stroke: "#34A1AD", strokeWidth: 3 }))); };
+    React.createElement("g", { clipPath: "url(#check-small_svg__clip0)" },
+        React.createElement("path", { d: "M10 17.4L6 12l2.4-1.8 1.8 2.4L16.1 6l2.2 2-8.3 9.4z", fill: "#34A1AD" })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: "check-small_svg__clip0" })))); };
 exports["default"] = SvgCheckSmall;

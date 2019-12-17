@@ -2,7 +2,15 @@ import * as React from "react";
 
 const SvgCheckSmall = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={24} height={24} fill="none" {...props}>
-    <path d="M7 11.148L9.903 15 17 7" stroke="#34A1AD" strokeWidth={3} />
+    <g clipPath="url(#check-small_svg__clip0)">
+      <path
+        d="M10 17.4L6 12l2.4-1.8 1.8 2.4L16.1 6l2.2 2-8.3 9.4z"
+        fill="#34A1AD"
+      />
+    </g>
+    <defs>
+      <clipPath id="check-small_svg__clip0" />
+    </defs>
   </svg>
 );
 

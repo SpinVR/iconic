@@ -1,3 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7 11.1481L9.90323 15L17 7" stroke="#34A1AD" stroke-width="3"/>
+<g clip-path="url(#clip0)">
+<path d="M10 17.4L6 12L8.4 10.2L10.2 12.6L16.1 6L18.3 8L10 17.4Z" fill="#34A1AD"/>
+</g>
+<defs>
+<clipPath id="clip0">
+</clipPath>
+</defs>
 </svg>
