@@ -24,6 +24,8 @@ export { default as ArrowUpSmall } from "./ArrowUpSmall";
 export * from "./ArrowUpSmall";
 export { default as Audio } from "./Audio";
 export * from "./Audio";
+export { default as CameraBack } from "./CameraBack";
+export * from "./CameraBack";
 export { default as CameraLarge } from "./CameraLarge";
 export * from "./CameraLarge";
 export { default as CameraLock } from "./CameraLock";
