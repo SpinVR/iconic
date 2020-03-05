@@ -284,6 +284,8 @@ export { default as TriggerEndStop } from "./TriggerEndStop";
 export * from "./TriggerEndStop";
 export { default as TriggerLookat } from "./TriggerLookat";
 export * from "./TriggerLookat";
+export { default as TriggerLoop } from "./TriggerLoop";
+export * from "./TriggerLoop";
 export { default as TriggerParallel } from "./TriggerParallel";
 export * from "./TriggerParallel";
 export { default as TriggerPause } from "./TriggerPause";
