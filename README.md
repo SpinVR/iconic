@@ -10,6 +10,7 @@ To update the icon collection:
 2. Run `npm start`
 3. Bump the pakcage version
 4. Commit and push changes
+5. Add a new release
 
 To use the icon collection:
 
