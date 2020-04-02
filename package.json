@@ -1,12 +1,12 @@
 {
   "name": "@areo/iconic",
-  "version": "1.8.0",
+  "version": "1.11.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx @svgr/cli --template component-template.js -d components source --config-file .svgrrc.json --ext tsx",
     "index": "npx cti create components && npx barrelsby --exportDefault --delete --directory components",
-    "precompile": "npx rimraf dist",
+    "precompile": "npx rimraf dist && rm components/index.tsx",
     "compile": "npx tsc",
     "start": "npm run build && npm run index && npm run compile"
   },
