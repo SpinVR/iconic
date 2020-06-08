@@ -12,6 +12,6 @@ var __assign = (this && this.__assign) || function () {
 };
 exports.__esModule = true;
 var React = require("react");
-var SvgUnlockLarge = function (props) { return (React.createElement("svg", __assign({ width: 40, height: 40, fill: "none" }, props),
-    React.createElement("path", { d: "M16 17v-2c0-2.2 1.8-4 4-4 2 0 3.6 1.4 3.9 3.3l2-.3c-.5-2.9-2.9-5-5.9-5-3.3 0-6 2.7-6 6v2h-1v13h14V17H16zm9 11H15v-9h10v9z", fill: "#fff" }))); };
-exports["default"] = SvgUnlockLarge;
+var SvgPinLarge = function (props) { return (React.createElement("svg", __assign({ width: 40, height: 40, fill: "none" }, props),
+    React.createElement("path", { d: "M28 24l-3-5v-9H15v9l-3 5h7v7h2v-7h7z", fill: "#fff" }))); };
+exports["default"] = SvgPinLarge;
