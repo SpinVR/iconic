@@ -174,6 +174,8 @@ export { default as ObjectLightPoint } from "./ObjectLightPoint";
 export * from "./ObjectLightPoint";
 export { default as ObjectLightSpot } from "./ObjectLightSpot";
 export * from "./ObjectLightSpot";
+export { default as ObjectLightset } from "./ObjectLightset";
+export * from "./ObjectLightset";
 export { default as ObjectLock } from "./ObjectLock";
 export * from "./ObjectLock";
 export { default as ObjectMesh } from "./ObjectMesh";
