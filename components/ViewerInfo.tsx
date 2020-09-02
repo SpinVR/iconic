@@ -5,7 +5,7 @@ const SvgViewerInfo = (props?: React.SVGProps<SVGSVGElement>) => (
     <g filter="url(#viewer-info_svg__filter0_d)">
       <path
         d="M20 9C13.95 9 9 13.95 9 20s4.95 11 11 11 11-4.95 11-11S26.05 9 20 9zm1.375 17.875h-2.75v-8.25h2.75v8.25zm0-11h-2.75v-2.75h2.75v2.75z"
-        fill="#fff"
+        fill="#000"
       />
     </g>
     <defs>
@@ -25,7 +25,7 @@ const SvgViewerInfo = (props?: React.SVGProps<SVGSVGElement>) => (
         />
         <feOffset />
         <feGaussianBlur stdDeviation={1} />
-        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0" />
+        <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0" />
         <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
         <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
       </filter>

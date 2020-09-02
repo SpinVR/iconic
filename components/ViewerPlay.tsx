@@ -3,7 +3,7 @@ import * as React from "react";
 const SvgViewerPlay = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
     <g filter="url(#viewer-play_svg__filter0_d)">
-      <path d="M28 20l-14-8v16l14-8z" fill="#fff" />
+      <path d="M28 20l-14-8v16l14-8z" fill="#000" />
     </g>
     <defs>
       <filter
@@ -22,7 +22,7 @@ const SvgViewerPlay = (props?: React.SVGProps<SVGSVGElement>) => (
         />
         <feOffset />
         <feGaussianBlur stdDeviation={1} />
-        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0" />
+        <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0" />
         <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
         <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
       </filter>

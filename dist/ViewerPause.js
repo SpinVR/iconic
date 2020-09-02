@@ -13,7 +13,7 @@ var __assign = (this && this.__assign) || function () {
 exports.__esModule = true;
 var React = require("react");
 var SvgViewerPause = function (props) { return (React.createElement("svg", __assign({ width: 40, height: 40, fill: "none" }, props),
-    React.createElement("g", { filter: "url(#viewer-pause_svg__filter0_d)", fill: "#fff" },
+    React.createElement("g", { filter: "url(#viewer-pause_svg__filter0_d)", fill: "#000" },
         React.createElement("path", { d: "M17 12h-4v16h4V12zM27 12h-4v16h4V12z" })),
     React.createElement("defs", null,
         React.createElement("filter", { id: "viewer-pause_svg__filter0_d", x: -2, y: -2, width: 44, height: 44, filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB" },
@@ -21,7 +21,7 @@ var SvgViewerPause = function (props) { return (React.createElement("svg", __ass
             React.createElement("feColorMatrix", { "in": "SourceAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
             React.createElement("feOffset", null),
             React.createElement("feGaussianBlur", { stdDeviation: 1 }),
-            React.createElement("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0" }),
+            React.createElement("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0" }),
             React.createElement("feBlend", { in2: "BackgroundImageFix", result: "effect1_dropShadow" }),
             React.createElement("feBlend", { "in": "SourceGraphic", in2: "effect1_dropShadow", result: "shape" }))))); };
 exports["default"] = SvgViewerPause;

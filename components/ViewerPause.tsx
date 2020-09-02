@@ -2,7 +2,7 @@ import * as React from "react";
 
 const SvgViewerPause = (props?: React.SVGProps<SVGSVGElement>) => (
   <svg width={40} height={40} fill="none" {...props}>
-    <g filter="url(#viewer-pause_svg__filter0_d)" fill="#fff">
+    <g filter="url(#viewer-pause_svg__filter0_d)" fill="#000">
       <path d="M17 12h-4v16h4V12zM27 12h-4v16h4V12z" />
     </g>
     <defs>
@@ -22,7 +22,7 @@ const SvgViewerPause = (props?: React.SVGProps<SVGSVGElement>) => (
         />
         <feOffset />
         <feGaussianBlur stdDeviation={1} />
-        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0" />
+        <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0" />
         <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
         <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
       </filter>

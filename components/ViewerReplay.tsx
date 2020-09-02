@@ -5,7 +5,7 @@ const SvgViewerReplay = (props?: React.SVGProps<SVGSVGElement>) => (
     <g filter="url(#viewer-replay_svg__filter0_d)">
       <path
         d="M22 11c-5 0-9 4-9 9h-3l4.5 5 4.5-5h-3c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6c-.9 0-1.7-.2-2.5-.5l-2.2 2.2c1.4.8 3 1.3 4.7 1.3 5 0 9-4 9-9s-4-9-9-9z"
-        fill="#fff"
+        fill="#000"
       />
     </g>
     <defs>
@@ -25,7 +25,7 @@ const SvgViewerReplay = (props?: React.SVGProps<SVGSVGElement>) => (
         />
         <feOffset />
         <feGaussianBlur stdDeviation={1} />
-        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0" />
+        <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0" />
         <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
         <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
       </filter>
