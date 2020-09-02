@@ -13,15 +13,5 @@ var __assign = (this && this.__assign) || function () {
 exports.__esModule = true;
 var React = require("react");
 var SvgViewerKebob = function (props) { return (React.createElement("svg", __assign({ width: 40, height: 40, fill: "none" }, props),
-    React.createElement("g", { filter: "url(#viewer-kebob_svg__filter0_d)", fill: "#000" },
-        React.createElement("path", { d: "M20.4 13.8a2.4 2.4 0 100-4.8 2.4 2.4 0 000 4.8zM20.4 22.4a2.4 2.4 0 100-4.8 2.4 2.4 0 000 4.8zM20.4 31a2.4 2.4 0 100-4.8 2.4 2.4 0 000 4.8z" })),
-    React.createElement("defs", null,
-        React.createElement("filter", { id: "viewer-kebob_svg__filter0_d", x: -2, y: -2, width: 44, height: 44, filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB" },
-            React.createElement("feFlood", { floodOpacity: 0, result: "BackgroundImageFix" }),
-            React.createElement("feColorMatrix", { "in": "SourceAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-            React.createElement("feOffset", null),
-            React.createElement("feGaussianBlur", { stdDeviation: 1 }),
-            React.createElement("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0" }),
-            React.createElement("feBlend", { in2: "BackgroundImageFix", result: "effect1_dropShadow" }),
-            React.createElement("feBlend", { "in": "SourceGraphic", in2: "effect1_dropShadow", result: "shape" }))))); };
+    React.createElement("path", { d: "M20.4 13.8a2.4 2.4 0 100-4.8 2.4 2.4 0 000 4.8zM20.4 22.4a2.4 2.4 0 100-4.8 2.4 2.4 0 000 4.8zM20.4 31a2.4 2.4 0 100-4.8 2.4 2.4 0 000 4.8z", fill: "#000" }))); };
 exports["default"] = SvgViewerKebob;
