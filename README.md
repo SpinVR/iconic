@@ -1,6 +1,6 @@
-# @areo/iconic
+# @spinvr/iconic
 
-Brio's icon collection.
+Icon collection from SPINVR.
 
 ## Usage
 
@@ -14,8 +14,8 @@ To update the icon collection:
 
 To use the icon collection:
 
-1. Install `@areo/iconic` by using a deploy token from Gitlab
-2. Import the needed icon eg `import { Done } from '@areo/iconic`
+1. Install `@spinvr/iconic` by using a deploy token from Gitlab
+2. Import the needed icon eg `import { Done } from '@spinvr/iconic`
 
 Note:
 1. `source` file names should not be duplicate
