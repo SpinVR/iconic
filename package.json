@@ -1,9 +1,9 @@
 {
   "name": "@spinvr/iconic",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "description": "",
   "main": "dist/index.js",
-  "publishConfig": { 
+  "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
