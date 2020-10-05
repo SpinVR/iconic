@@ -212,6 +212,8 @@ export { default as Management } from "./Management";
 export * from "./Management";
 export { default as Mobile } from "./Mobile";
 export * from "./Mobile";
+export { default as MouseCursor } from "./MouseCursor";
+export * from "./MouseCursor";
 export { default as MouseDarkLeftClick } from "./MouseDarkLeftClick";
 export * from "./MouseDarkLeftClick";
 export { default as MouseDarkLeftDoubleClick } from "./MouseDarkLeftDoubleClick";
