@@ -76,6 +76,8 @@ export { default as DoneSmall } from "./DoneSmall";
 export * from "./DoneSmall";
 export { default as DownloadLarge } from "./DownloadLarge";
 export * from "./DownloadLarge";
+export { default as DownloadSmall } from "./DownloadSmall";
+export * from "./DownloadSmall";
 export { default as EffectsBloom } from "./EffectsBloom";
 export * from "./EffectsBloom";
 export { default as EffectsChromatic } from "./EffectsChromatic";
