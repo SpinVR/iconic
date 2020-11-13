@@ -534,6 +534,8 @@ export { default as ViewerPauseSmall } from "./ViewerPauseSmall";
 export * from "./ViewerPauseSmall";
 export { default as ViewerPlay } from "./ViewerPlay";
 export * from "./ViewerPlay";
+export { default as ViewerPlayDown } from "./ViewerPlayDown";
+export * from "./ViewerPlayDown";
 export { default as ViewerPlaySmall } from "./ViewerPlaySmall";
 export * from "./ViewerPlaySmall";
 export { default as ViewerPositionBottom } from "./ViewerPositionBottom";
