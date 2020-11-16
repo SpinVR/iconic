@@ -1,17 +1,20 @@
 {
   "name": "@spinvr/iconic",
-  "version": "1.29.0",
+  "version": "1.31.0",
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "npx @svgr/cli --template component-template.js -d components source --config-file .svgrrc.json --ext tsx",
-    "index": "npx cti create components && npx barrelsby --exportDefault --delete --directory components",
-    "precompile": "npx rimraf dist  && rm components/index.tsx",
-    "compile": "npx tsc",
+    "build": "${npm_package_config_bin}/svgr --template component-template.js -d components source --config-file .svgrrc.json --ext tsx",
+    "index": "${npm_package_config_bin}/cti create components && ${npm_package_config_bin}/barrelsby --exportDefault --delete --directory components",
+    "precompile": "${npm_package_config_bin}/rimraf dist",
+    "compile": "${npm_package_config_bin}/tsc",
     "start": "npm run build && npm run index && npm run compile"
+  },
+  "config": {
+    "bin": "./node_modules/.bin"
   },
   "author": "",
   "license": "ISC",
