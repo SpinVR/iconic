@@ -568,6 +568,8 @@ export { default as ViewerSound } from "./ViewerSound";
 export * from "./ViewerSound";
 export { default as ViewerSoundOff } from "./ViewerSoundOff";
 export * from "./ViewerSoundOff";
+export { default as ViewerThreeDSelected } from "./ViewerThreeDSelected";
+export * from "./ViewerThreeDSelected";
 export { default as ViewerThreeDText } from "./ViewerThreeDText";
 export * from "./ViewerThreeDText";
 export { default as ViewerView } from "./ViewerView";
