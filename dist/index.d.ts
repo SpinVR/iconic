@@ -166,6 +166,8 @@ export { default as GestureTwoFingers } from "./GestureTwoFingers";
 export * from "./GestureTwoFingers";
 export { default as GestureZoom } from "./GestureZoom";
 export * from "./GestureZoom";
+export { default as GizmoDirectionalLight } from "./GizmoDirectionalLight";
+export * from "./GizmoDirectionalLight";
 export { default as Help } from "./Help";
 export * from "./Help";
 export { default as HelpFilled } from "./HelpFilled";
