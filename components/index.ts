@@ -402,6 +402,8 @@ export { default as TextSizeSmall } from "./TextSizeSmall";
 export * from "./TextSizeSmall";
 export { default as TextText } from "./TextText";
 export * from "./TextText";
+export { default as ToastBrio } from "./ToastBrio";
+export * from "./ToastBrio";
 export { default as ToastError } from "./ToastError";
 export * from "./ToastError";
 export { default as ToastInfo } from "./ToastInfo";
