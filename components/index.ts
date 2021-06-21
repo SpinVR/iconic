@@ -184,6 +184,8 @@ export { default as Info } from "./Info";
 export * from "./Info";
 export { default as InfoSmall } from "./InfoSmall";
 export * from "./InfoSmall";
+export { default as InputClear } from "./InputClear";
+export * from "./InputClear";
 export { default as ItemVierList } from "./ItemVierList";
 export * from "./ItemVierList";
 export { default as ItemViewGrid } from "./ItemViewGrid";
