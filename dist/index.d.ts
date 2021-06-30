@@ -460,6 +460,8 @@ export { default as UploadUpload } from "./UploadUpload";
 export * from "./UploadUpload";
 export { default as UploadVideo360 } from "./UploadVideo360";
 export * from "./UploadVideo360";
+export { default as UpoadObjectModel } from "./UpoadObjectModel";
+export * from "./UpoadObjectModel";
 export { default as Video36094X68 } from "./Video36094X68";
 export * from "./Video36094X68";
 export { default as View } from "./View";
